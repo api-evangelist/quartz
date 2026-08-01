@@ -1,7 +1,22 @@
 aid: quartz
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quartz.png
 name: Quartz
-description: Quartz is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Quartz was a seed-stage startup founded by Jeremy Conrad and Conor Lenahan and backed by
+  Bloomberg Beta (2016 fund). It surfaced in the API Evangelist network as a portfolio-lead stub. An
+  enrichment pass on 2026-07-20 confirmed the company has exited/wound down - the candidate domains
+  (getquartz.com, quartz.io) now resolve to parked "for sale" pages and there is no live product,
+  developer portal, or public API surface. No API artifacts could be harvested, generated, or derived.
 url: https://raw.githubusercontent.com/api-evangelist/quartz/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,7 +26,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 apis: []
@@ -20,3 +35,8 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
